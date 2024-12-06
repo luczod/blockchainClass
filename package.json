@@ -1,0 +1,35 @@
+{
+  "name": "typescript-blockchain",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "node -r sucrase/register src/index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khaosdoctor/typescript-blockchain.git"
+  },
+  "keywords": [],
+  "author": "Lucas Santos <hello@lsantos.dev> (https://lsantos.dev/)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/khaosdoctor/typescript-blockchain/issues"
+  },
+  "homepage": "https://github.com/khaosdoctor/typescript-blockchain#readme",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "eslint": "^9.16.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.4.2",
+    "sucrase": "^3.35.0",
+    "typescript": "^5.7.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
